@@ -1,9 +1,13 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+import ImagemComponent from '@/components/ImagemComponent.vue';
+import TabelaComponent from '@/components/TabelaComponent.vue';
+import VideoComponent from '@/components/VideoComponent.vue';
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <ImagemComponent/>
+    <TabelaComponent/>
+    <VideoComponent/>
   </main>
 </template>
