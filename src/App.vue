@@ -2,7 +2,13 @@
 import HomeView from './views/HomeView.vue';
 </script>
 <template>
-    <HomeView/>
+    <nav>
+        <router-link to="/">Home</router-link>
+        <router-link to="/videos">Videos</router-link>
+        <router-link to="/imagens">Imagens</router-link>
+        <router-link to="/tabela">Tabela</router-link>
+    </nav>
+    <router-view/>
     <footer>
         <div id="footer_content">
             <div id="footer_contacts">

@@ -43,10 +43,6 @@ h3 {
     letter-spacing: 1px;
 }
 
-main {
-    height: 80vh;
-}
-
 footer {
     width: 100%;
     color: var(--color-neutral-40);
@@ -235,4 +231,13 @@ table {
     display: table;
     margin: auto;
     width: 50%;
+}
+#img{
+    display: table;
+    margin: auto;
+}
+#png{
+    display: table;
+    margin: auto;
+    
 }
