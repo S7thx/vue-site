@@ -1,8 +1,4 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
-import VideoComponent from '@/components/VideoComponent.vue'
-import ImagemComponent from '@/components/ImagemComponent.vue'
-import TabelaComponent from '@/components/TabelaComponent.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -10,24 +6,23 @@ const router = createRouter({
     {
       path: '/',
       name: 'home',
-      component: HomeView
+      component: () => import('../views/HomeView.vue')
     },
     {
      path: '/videos',
      name: 'videos',
-     component: VideoComponent,
+     component: () => import('../components/VideoComponent.vue')
     },
     {
      path: '/imagens',
      name: 'imagens',
-     component: ImagemComponent,
+     component: () => import('../components/ImagemComponent.vue')
     },
     {
      path: '/tabela',
      name: 'tabela',
-     component: TabelaComponent,
+     component: () => import('../components/TabelaComponent.vue')
     },
   ]
 })
-
 export default router
