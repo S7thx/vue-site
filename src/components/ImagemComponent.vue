@@ -2,8 +2,8 @@
 
      <div id="png" style="width: 33%;">
         <img width="100px" src="https://th.bing.com/th?id=OIP.NLtWGtzFhsFQf83Wmam0kwHaKh&w=209&h=298&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2">
-        <img width="800px" src="/src/assets/imagem/img3.jpg">
         <img width="800px" src="/src/assets/imagem/image1.jpg" loading="lazy">
+        <img width="800px" src="/src/assets/imagem/img3.jpg">
         <img width="800px" src="/src/assets/imagem/image1.jpg" loading="lazy">
         <img width="800px" src="/src/assets/imagem/image1.jpg" loading="lazy">
     </div>
