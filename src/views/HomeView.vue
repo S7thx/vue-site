@@ -1,6 +1,6 @@
 <script setup>
 import ImagemComponent from '@/components/ImagemComponent.vue';
-import TabelaComponent from '@/components/TabelaComponent.vue';
+import TabelaComponent from '@/components/tabelaComponent.vue';
 import VideoComponent from '@/components/VideoComponent.vue';
 </script>
 <template>

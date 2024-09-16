@@ -21,7 +21,7 @@ const router = createRouter({
     {
      path: '/tabela',
      name: 'tabela',
-     component: () => import('../components/TabelaComponent.vue')
+     component: () => import('../components/tabelaComponent.vue')
     }]
 })
 export default router
