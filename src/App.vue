@@ -1,5 +1,6 @@
 <script setup>
 import HomeView from './views/HomeView.vue';
+import { ImageEngineProvider } from "@imageengine/vue";
 </script>
 <template>
     <nav>
@@ -8,5 +9,6 @@ import HomeView from './views/HomeView.vue';
         <router-link to="/imagens">Imagens</router-link>
         <router-link to="/tabela">Tabela</router-link>
     </nav>
-    <router-view/>
+
+        <router-view />
 </template>
